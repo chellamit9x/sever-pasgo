@@ -1,1 +1,1 @@
-export const URL_API = "http://localhost:1337/api/v1";
+export const URL_API = "http://fitisoft.pasgo.vn/api/v1";
