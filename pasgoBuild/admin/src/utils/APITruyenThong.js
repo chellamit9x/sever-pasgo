@@ -14,7 +14,7 @@ export const getAPI = (endpoint, method = 'GET', body) => {
 export const postAPI = (endpoint, body) => {
   return axios.post(
     `${Config.URL_API}/${endpoint}`,
-    body, {
+    JSON.stringify(body), {
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'text/plain'
