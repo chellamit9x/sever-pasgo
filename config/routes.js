@@ -1,7 +1,7 @@
 module.exports.routes = {
   
   'GET /': 'HomeController.home',
-  'POST /': 'HomeController.home',
+  'POST /': 'HomeController.home', 
   'GET /admin': 'AdminController.admin',
   'GET /register': 'HomeController.register',
   'POST /register': 'HomeController.register',
